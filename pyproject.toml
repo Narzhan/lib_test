@@ -1,0 +1,26 @@
+[project]
+name = "example_package_YOUR_USERNAME_HERE"
+version = "0.0.1"
+authors = [
+  { name="John Doe", email="author@google.com" },
+]
+description = "A small test package"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+dependencies = [
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+[project.urls]
+Homepage = "https://github.com/Narzhan/probe"
+Issues = "https://github.com/Narzhan/probeissues"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
